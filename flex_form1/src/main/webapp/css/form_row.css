@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	
+}
+
+
+body {
+	margin: 0;
+	background-color: #eee;
+}
+
+header {
+	color: black;
+	text-align: center;
+}
+
+form {
+	border: 1px solid black;
+	margin: 20px;
+	padding: 10px;
+}
+
+.__form-row {
+	padding: 15px;
+	display: flex;
+}
+
+.__form-row label {
+	flex: 1;
+}
+
+.__form-row input {
+	flex: 3;
+}
+
+@media (max-width : 768px) {
+	__form-row {
+		flex-direction: column;
+	}
+}

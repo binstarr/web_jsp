@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;}
+body{margin: 0; background-color: #fefefe}
+h1,h2,h3,h4,h5,h6{margin: 0;}
+
+body{
+	display: flex;
+	justify-content: center;
+	
+}
+
+section{
+	width: 1300px;
+	margin: 40px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.main{
+	display: flex;
+	flex-direction : column;
+	flex: 3;
+	order: 2;
+	align-items: center;
+}
+.main img{
+	width: 600px;
+	height: 400px;
+}
+
+.side1{
+	flex: 1;
+	order: 1;
+}
+.side2{
+	flex: 1;
+	order: 3;
+}

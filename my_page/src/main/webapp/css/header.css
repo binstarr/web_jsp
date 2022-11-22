@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+body{
+    width:100%; height:100%;
+    background: url("../images/background.jpg") no-repeat 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header.mainPage{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.logo{
+	width: 5px;
+	height: 140px;
+	margin: 15px;
+	margin-right: 0;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+}
+.logo h4{
+	margin-top: 10px;
+	font-size: 24px;
+	color: white;
+}
+
+.logo img{
+	width: 50px;
+	height: 50px;
+}
+.nav{
+	position: fixed;
+	left: 38%;
+}
+.nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav ul li{
+	margin-top: 32px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav ul li a{
+	color: white;
+}
+
+article{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+} 
+.contents1{
+	width: 100vw;
+	height: 30%;
+	display: block;
+	padding-top: 200px;
+	padding-left: 200px;
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+article .contents2{
+	width: 100vw;
+	display: flex;
+	padding-left: 200px;
+	padding-right: 200px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contents2 .rina img{
+	width: 700px;
+	height: 400px;
+}
+
+.contents2 .mave img{
+	border: 1px solid #fff;
+	width: 700px;
+	height: 400px;
+}
+
+.contents2 .rina{
+	display: flex;
+	flex-direction: column;
+}
+.contents2 .rina .aboutRina{
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.contents2 .rina .aboutRina h3{
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+
+.contents2 .mave{
+	display: flex;
+	flex-direction: column;
+}
+.contents2 .rina .aboutMave{
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+
+
