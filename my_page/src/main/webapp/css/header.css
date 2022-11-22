@@ -123,15 +123,29 @@ article .contents2{
 	margin-right: 10px;
 }
 
+.contents2 .rina .aboutRina p{
+	margin-top: 5px;
+}
+
 
 .contents2 .mave{
 	display: flex;
 	flex-direction: column;
 }
-.contents2 .rina .aboutMave{
+.contents2 .mave .aboutMave{
 	display: flex;
 	flex-direction: row;
 	color: white;
+}
+
+.contents2 .rina .aboutMave h3{
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.contents2 .rina .aboutMave p{
+	margin-top: 5px;
 }
 
 
