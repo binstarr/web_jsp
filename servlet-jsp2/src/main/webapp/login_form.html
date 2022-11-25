@@ -1,0 +1,67 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	padding: 40px;
+}
+</style>
+</head>
+<body>
+	<!-- 기본 메서드는 get이다. -->
+	<!-- / 를 사용하지 않으면 (처음에) 상대 경로로 찾는다. -->
+	<!-- / 를 처음에 사용하면 절대 경로로 찾는다.. -->
+	<form action="login_ok.jsp" method="post">
+		<div class="form-group">
+			<label for="email">Email address:</label> <input type="email"
+				class="form-control" placeholder="Enter email" id="email"
+				name="email">
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label> <input type="password"
+				class="form-control" placeholder="Enter password" id="pwd"
+				name="pwd">
+		</div>
+		<div class="form-group">
+			<label for="self">취미</label> <select id="self" name="hobby">
+				<option value="코딩">코딩</option>
+				<option value="공부">공부</option>
+				<option value="프로젝트">프로젝트</option>
+				<option value="술마시기">술마시기</option>
+			</select>
+		</div>
+		<div class="form-group" style="border:1px solid black; padding : 10px;">
+		<p>좋아하는 동물은
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input" name ="like" value="cat">고양이
+				</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input" name ="like" value="dog">강아지
+				</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input" name ="like" value="lion">사자
+				</label>
+			</div>
+		</div>
+		<div class="form-group form-check">
+			<label class="form-check-label"> <input
+				class="form-check-input" type="isRemember"> Remember me
+			</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</body>
+</html>
